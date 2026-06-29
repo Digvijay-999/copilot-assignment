@@ -1,0 +1,29 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "A simple Node.js CLI application that fetches weather data",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "weather": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js"
+  },
+  "keywords": [
+    "weather",
+    "cli",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
